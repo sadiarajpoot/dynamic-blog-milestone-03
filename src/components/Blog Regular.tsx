@@ -43,7 +43,7 @@ function Blog_Regular() {
         {blog.map((blog) => {
           return (
             <Link key={blog.id} href={`/articles/${blog.id}`}>
-              <div className="border border-[#ddd] shadow-lg rounded-[5px] p-3  m-2">
+              <div className="border border-[#ddd] shadow-lg rounded-[5px] p-3  m-3">
                 <div className="w-full h-[200px] sm:h-[250px] md:h-[280px] bg-cover bg-center rounded-[5px]">
                   <img
                     src={blog?.image || '/default-author.jpg'}
