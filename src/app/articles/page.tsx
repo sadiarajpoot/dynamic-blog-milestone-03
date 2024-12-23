@@ -47,7 +47,7 @@ const Articles = () => {
           {blog.map((blog) => {
             return (
               <Link key={blog.id} href={`/articles/${blog.id}`}>
-                <div className="border border-[#ddd] shadow-lg rounded-[5px] p-3">
+                <div className="border border-[#ddd] shadow-lg rounded-[5px] p-3 m-4">
                   <div className="w-full bg-cover bg-center rounded-[5px]">
                     <Image
                       src={blog.image}
