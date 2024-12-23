@@ -42,7 +42,7 @@ export function Header() {
             </SheetTrigger>
             <SheetContent className="text-white">
               {/* Mobile Menu */}
-              <ul className="flex flex-col items-center text-sm font-medium gap-6 mt-20">
+              <ul className="flex flex-col items-center text-sm font-bold gap-6 mt-20">
                 <li><Link href="/" className="hover:underline cursor-pointer">Home</Link></li>
                 <li><Link href="/articles" className="hover:underline cursor-pointer">Articles</Link></li>
                 <li><Link href="/about" className="hover:underline cursor-pointer">About</Link></li>
