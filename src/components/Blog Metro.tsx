@@ -9,7 +9,7 @@ const Blog_Metro = () => {
     <>
         <div className="md:ml-9 w-full max-w-[1300px] h-auto">
             <h1 className='lora font-bold text-[36px] leading-[46px] text-[#495057] pl-6 pt-5'>Editor’s Pick</h1>
-            <div className='flex flex-col sm:flex-row justify-evenly mt-16 gap-4 m-2'>
+            <div className='flex flex-col sm:flex-row justify-evenly mt-16 gap-4 m-4'>
                 <div className='w-full sm:w-1/3'>
                     <Image src={BlogEditor1} alt='' className="w-full h-auto object-cover rounded-md" />
                 </div>
